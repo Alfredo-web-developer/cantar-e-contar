@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+:root {
+  --azul-escuro: #033d60;
+  --azul: #416c86;
+  --branco: #fff;
+  --preto: #000;
+  --cinza: #d2d6de;
+  --cinza-escuro: #858497;
+
+  --font-serif: verdana, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.headerIndex {
+  box-sizing: border-box;
+  background-color: var(--cinza);
+  color: var(--azul-escuro);
+
+  text-align: center;
+  font-family: var(--font-serif);
+
+  padding: 20px 0px;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.headerIndex > section > h1 {
+  font-size: 2em;
+  margin: 4px;
+}
+.headerIndex > section > p {
+  font-size: 0.95em;
+}
+
+.form {
+  margin-top: 5rem;
+  width: 23rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: stretch;
+  align-content: center;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.altura {
+  height: 2rem;
+  width: 20rem;
+}
+
+input {
+  border: solid black 1px;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
