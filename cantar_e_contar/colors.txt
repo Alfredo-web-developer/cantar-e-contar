@@ -1,6 +1,0 @@
-Azul Escuro: #033D60
-Azul: #416C86
-Branco: #fff
-Preto: #000
-Cinza: #D2D6DE
-Cinza Escuro: #858497
