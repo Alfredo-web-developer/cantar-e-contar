@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  },
+  "dependencies": {
+    "semantic-ui-css": "^2.5.0"
+  }
+}
